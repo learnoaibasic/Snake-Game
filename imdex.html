@@ -122,8 +122,9 @@
             food = { x: Math.floor(Math.random() * (canvas.width / boxSize)) * boxSize, 
                      y: Math.floor(Math.random() * (canvas.height / boxSize)) * boxSize };
             clearInterval(gameInterval);
-            gameInterval = setInterval(updateGame, 150); // Lower speed
+            gameInterval = setInterval(updateGame, 150); // Adjusted speed for smoother gameplay
         });
     </script>
 </body>
 </html>
+
